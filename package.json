@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "allure:generate": "allure generate ./allure-results --clean",
+    "allure:open": "allure open"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crafjer01/Datacom-framework.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Carlos Pineda",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/crafjer01/Datacom-framework/issues"
   },
@@ -19,6 +24,8 @@
   "devDependencies": {
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.9.2",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.4.2",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
