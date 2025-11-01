@@ -6,15 +6,6 @@ It is built using Playwright for automation and TypeScript for robust, clean, an
 
 ### Prerequisites
 
-Absolutely! Here is the English version of the README.md for your Datacom-Framework project.
-
-🚀 Datacom-Framework: E2E Test Automation
-This project is an End-to-End (E2E) Test Automation Framework designed to validate the Bugs Form on a QA practice environment.
-
-It is built using Playwright for automation and TypeScript for robust, clean, and scalable development.
-
-### Prerequisites
-
 Before you start, make sure you have the following installed:
 
 - Node.js: Version 18 or higher.
