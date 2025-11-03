@@ -2,13 +2,9 @@ import { test, expect } from "@playwright/test";
 import { BugsFormPage, getUserById } from "../src";
 
 import { alertsMessage } from "../src";
-import { describe } from "node:test";
 const { passwordCountMessage, successfullMessage } = alertsMessage;
 
 const user = getUserById(1);
-if (!user) {
-  throw new Error(`User with ID 1 not found`);
-}
 const { firstName, lastName, phone, email, country, password } = user;
 
 test.describe("Form: test cases", () => {
